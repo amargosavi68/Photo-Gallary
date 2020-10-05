@@ -1,0 +1,39 @@
+body 
+{
+     padding: 0;
+     margin: 0;
+     background-color: cornsilk;
+}
+
+.site__heading
+{
+     position: fixed;
+     width: 100%;
+     background-color: #666666;
+     z-index: 1000;
+}
+
+.nav-item a
+{
+     font-size: larger;
+     color:#fff;
+     padding: 0px 25px;
+}
+
+.container-fluid
+{
+     background-color: #deeceb;
+     padding: 70px 0px 10px 0px;
+}
+
+img 
+{
+     height: 350px;
+}
+
+.container #collections .image__container 
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
