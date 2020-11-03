@@ -52,7 +52,7 @@ img
      transition: ease-in 0.3s;
 }
 
-.container #collections .image__container .image__container__div img:hover, .content :hover
+.container #collections .image__container .image__container__div img:hover
 {
      cursor: pointer;
      opacity: 0.3;
@@ -61,5 +61,21 @@ img
 }
 .container #collections .image__container .image__container__div .content :after
 {
-     display: inline;
+     cursor: pointer;
+     opacity: 0.3;
+     z-index: 1;
+     transform: scale(1.03);
+}
+
+
+#aboutus .container 
+{
+     display: flex;
+}
+
+#aboutus .container .left__img img
+{
+     height: 300px;
+     width: 500px;
+
 }
