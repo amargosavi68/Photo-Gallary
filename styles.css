@@ -53,6 +53,14 @@ img
      width: 200px;
 }
 
+.heading__text
+{
+     justify-content: center;
+     align-content: center;
+     width: 70%;
+     margin: 20px 30px 10px 30px;
+}
+
 .container #collections .image__container 
 {
      display: flex;
@@ -80,6 +88,7 @@ img
      background-color: wheat;
      box-shadow: 1px 3px 5px #cccccc;
      margin-bottom: 30px;
+     transition: 0.1s ease-in-out;
 }
 
 .container #collections .image__container .image__container__div .content
