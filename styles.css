@@ -172,9 +172,15 @@ img
      {
           transform: translateX(60%);
      }
+     #aboutus .container 
+     {
+          display: block;
+     }
      .left__img, .img__right 
      {
-          display: none;
+          display: inline-flex;
+          height: 100px;
+          width: 100px;
      }
      .contact-us-image
      {
