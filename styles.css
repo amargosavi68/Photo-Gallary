@@ -178,9 +178,9 @@ img
      }
      .left__img, .img__right 
      {
-          display: inline-flex;
-          height: 100px;
-          width: 100px;
+          display: none;
+          height: auto;
+          width: 70%;
      }
      .contact-us-image
      {
